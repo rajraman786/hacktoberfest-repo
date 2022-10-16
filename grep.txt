@@ -1,0 +1,15 @@
+greps commands
+grep <string> <file location from start>
+eg: grep ter 'D:\CSE\vs_code\py\week 1&2\novel.txt'
+
+# to ignore case use -i parameter
+grep -i <string> <file location from start>
+
+# using '.' // '.' can be replaced by any letter, thus forming a pattern
+grep l.rts <file location>
+
+# other special characters: ^, $
+# ^ tells to look at the beginning of the line
+grep ^fruit <file location>
+# $ tells to look at the end of the line
+grep cat$ <file location>
