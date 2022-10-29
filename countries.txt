@@ -1,0 +1,10 @@
+France;11;11;12 
+Great Britain & N. Ireland;29;17;19 
+China;38;27;23 
+Russian Federation;24;26;32 
+South Korea;13;8;7 
+Australia;7;16;12
+Germany;11;19;14 
+United States;46;29;29
+Hungary;8;4;5 
+Italy;8;9;11 

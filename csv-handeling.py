@@ -1,0 +1,25 @@
+def main():
+  # Open the file.
+  csv_file = open('test_scores.csv', 'r')
+  
+  # Read the file's lines into a list.
+  lines = csv_file.readlines()
+ 
+ # Close the file.
+  csv_file.close()
+ 
+ # Process the lines.
+  for line in lines:
+ # Get the test scores as tokens.
+   tokens = line.split(',')
+ 
+ # Calculate the total of the test scores.
+   total = 0.0
+   for token in tokens:
+       total += float(token)
+ 
+ # Calculate the average of the test scores.
+   average = total / len(tokens)
+   print(f'Average: {average}')
+ 
+ # Execute the main function.
